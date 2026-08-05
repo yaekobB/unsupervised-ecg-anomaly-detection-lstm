@@ -1,3 +1,6 @@
+<p align="center">
+  <img src="assets/banner.png" alt="Unsupervised ECG Anomaly Detection using an LSTM Autoencoder" width="100%">
+</p>
 # Unsupervised ECG Anomaly Detection Using an LSTM Autoencoder
 
 ![Python](https://img.shields.io/badge/Python-3.11-blue)
@@ -94,21 +97,24 @@ Performance Evaluation
 ```text
 unsupervised-ecg-anomaly-detection-lstm/
 │
-├── README.md
-├── LICENSE
-├── requirements.txt
-├── .gitignore
+├── assets/
+│   └── banner.png
 │
 ├── notebooks/
 │   └── Unsupervised-ECG-anomaly-detection-lstm.ipynb
 │
 ├── figures/
-│   ├── training/
 │   ├── evaluation/
-│   └── inference/
+│   ├── inference/
+│   └── training/
 │
-└── docs/
-    └── Project_Report.pdf
+├── docs/
+│   └── Project_Report.pdf
+│
+├── README.md
+├── LICENSE
+├── requirements.txt
+└── .gitignore
 ```
 
 ---
